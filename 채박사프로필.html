@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>최재현 박사 축하 페이지</title>
+    <style>
+        body {
+            background-color: #fff7c2;
+            font-family: "Comic Sans MS", system-ui, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            font-size: 48px;
+            margin-top: 50px;
+        }
+        .badge {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 20px;
+            border: 5px dotted hotpink;
+            background-color: #ffffff;
+        }
+        .blink {
+            animation: blink 0.6s step-start infinite;
+            color: red;
+        }
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+        .history {
+            margin-top: 40px;
+            font-size: 20px;
+        }
+        .history-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .history-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .history-list li {
+            margin: 8px 0;
+        }
+        .footer {
+            margin-top: 70px;
+            font-size: 12px;
+            color: #555555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎓 채민주 박사 축하! 🎓</h1>
+
+    <div class="badge">
+        <p>공식 호칭: <span class="blink">채민주 박사님</span></p>
+        <p>얘가? 싶어도 그냥 끄덕이기</p>
+    </div>
+
+    <div class="history">
+        <div class="history-title">📚 주요 이력</div>
+        <ul class="history-list">
+            <li><strong>주요이력: 시험기간에 남자때문에 우는 사람의 심리분석 논문냄 ✅</strong></li>
+            <li>눈물의 양과 학점의 상관관계에 대한 실험적 고찰 (아마도 SCI급) ✅</li>
+            <li>그런데도 박사 됐음 ✅</li>
+            <li>세상 모든 음식 다 먹게 생겼는데 회랑 매운거 못먹음 ✅</li>
+        </ul>
+    </div>
+
+    <marquee behavior="alternate" scrollamount="10" style="margin-top:50px; font-size:24px;">
+        🎉 채민주 박사님, 이제 울리지 않는 남자 만나세요 🎉
+    </marquee>
+
+</body>
+</html>
